@@ -1,0 +1,17 @@
+# Hello world
+
+[Reference doc](https://doc.rust-lang.org/book/ch01-02-hello-world.html)
+
+## Getting started
+
+- We can build a simple project using `rustc`.
+
+## Cargo
+
+Cargo is Rust’s build system and package manager. Most Rustaceans use this tool to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries.
+
+- We can create a project using `cargo new`.
+- We can build a project using `cargo build` or `cargo build --release`.
+- We can build and run a project in one step using `cargo run`.
+- We can build a project without producing a binary to check for errors using `cargo check`.
+- Instead of saving the result of the build in the same directory as our code, Cargo stores it in the `target/debug` directory.

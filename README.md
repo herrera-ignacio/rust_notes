@@ -4,6 +4,7 @@
 
 - [Collections](https://doc.rust-lang.org/std/collections/index.html)
 
-## Core
+## Introduction
 
-- [Hello world](./core/hello/README.md)
+- [Hello world](./intro/hello/README.md)
+- [Simple I/O program](./intr/guessing/README.md)
